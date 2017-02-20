@@ -12,7 +12,7 @@ RUN apt-get update \
   patch \
   python \
   sudo \
-  valgrind
+  valgrind \
   && rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/bash"]
