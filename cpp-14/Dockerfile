@@ -9,7 +9,8 @@ RUN pacman -S --noconfirm \
   make \
   patch \
   python \
-  sudo
+  sudo \
+  valgrind
 
 # Passwordless sudo for the user `developer`
 COPY sudoers /etc/sudoers
