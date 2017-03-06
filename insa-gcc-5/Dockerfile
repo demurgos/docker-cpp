@@ -1,4 +1,4 @@
-FROM debian:oldstable
+FROM gcc:5.4
 MAINTAINER Charles Samborski <demurgos@demurgos.net>
 
 RUN apt-get update \
@@ -7,8 +7,6 @@ RUN apt-get update \
   ca-certificates \
   cmake \
   flex \
-  g++ \
-  gcc \
   git \
   lcov \
   make \

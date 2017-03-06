@@ -2,8 +2,10 @@ FROM pritunl/archlinux:2017-02-11
 MAINTAINER Charles Samborski <demurgos@demurgos.net>
 
 RUN pacman -S --noconfirm \
+  bison \
   ca-certificates \
   cmake \
+  flex \
   gcc \
   git \
   make \
