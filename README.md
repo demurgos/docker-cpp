@@ -7,3 +7,4 @@ Features:
 - CMake
 - git
 - lcov
+- Python 3.6 (for `insa-cpp-5`)
