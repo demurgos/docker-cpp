@@ -28,4 +28,6 @@ RUN wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tgz \
   && rm -rf Python-3.6.1 \
   && rm Python-3.6.1.tgz
 
+ENV CXX gcc
+
 CMD ["/bin/bash"]
