@@ -18,4 +18,6 @@ RUN apt-get update \
   valgrind \
   && rm -rf /var/lib/apt/lists/*
 
+ENV CXX gcc
+
 CMD ["/bin/bash"]

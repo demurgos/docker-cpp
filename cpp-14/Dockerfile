@@ -14,6 +14,8 @@ RUN pacman -S --noconfirm \
   sudo \
   valgrind
 
+ENV CXX gcc
+
 # Passwordless sudo for the user `developer`
 COPY sudoers /etc/sudoers
 RUN chmod 440 /etc/sudoers
